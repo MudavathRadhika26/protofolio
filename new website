@@ -1,1 +1,4 @@
-
+I created a responsive personal portfolio website using HTML5 and Tailwind CSS. After completing the project, 
+I uploaded it to GitHub to manage and share the source code. First, I created a new repository on GitHub and then initialized Git in my project folder. 
+I added the project files, committed the changes, and pushed the code to the remote GitHub repository using Git commands. Finally,
+I enabled GitHub Pages from the repository settings to host the website online, which allows the portfolio to be accessed through a public URL. This makes the project easy to share and maintain.
