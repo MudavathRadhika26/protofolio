@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header / Profile -->
+  <header class="bg-blue-600 text-white py-10">
+    <div class="container mx-auto text-center">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-full mx-auto mb-4">
+      <h1 class="text-4xl font-bold">Your Name</h1>
+      <p class="text-lg mt-2">Web Developer | Designer | Programmer</p>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-white shadow rounded p-4">HTML5</div>
+        <div class="bg-white shadow rounded p-4">CSS3</div>
+        <div class="bg-white shadow rounded p-4">JavaScript</div>
+        <div class="bg-white shadow rounded p-4">Tailwind CSS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="bg-gray-200 py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Experience</h2>
+      <div class="space-y-6">
+        <div class="bg-white shadow rounded p-6">
+          <h3 class="text-xl font-semibold">Frontend Developer</h3>
+          <p class="text-gray-700">Company XYZ | 2021 - Present</p>
+          <p class="mt-2">Worked on building responsive web applications using modern frameworks.</p>
+        </div>
+        <div class="bg-white shadow rounded p-6">
+          <h3 class="text-xl font-semibold">Intern</h3>
+          <p class="text-gray-700">Company ABC | 2020 - 2021</p>
+          <p class="mt-2">Assisted in developing UI components and improving website performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded p-6">
+          <h3 class="text-xl font-semibold">Portfolio Website</h3>
+          <p class="mt-2">A responsive portfolio built with HTML5, CSS3, and Tailwind CSS.</p>
+        </div>
+        <div class="bg-white shadow rounded p-6">
+          <h3 class="text-xl font-semibold">E-commerce App</h3>
+          <p class="mt-2">Developed a shopping cart and product listing system using React.</p>
+        </div>
+        <div class="bg-white shadow rounded p-6">
+          <h3 class="text-xl font-semibold">Blog Platform</h3>
+          <p class="mt-2">Created a blog platform with user authentication and CRUD features.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-blue-600 text-white py-12">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="mb-4">Feel free to reach out for collaborations or opportunities.</p>
+      <p>Email: <a href="mailto:youremail@example.com" class="underline">youremail@example.com</a></p>
+      <p>Phone: +123 456 7890</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
